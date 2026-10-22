@@ -17,7 +17,7 @@ public class Customer
 
 
 /**
-   compares clients based on thier net worth
+   compares clients based on their net worth
 */
    public static class WorthComparator implements Comparator<Customer>
    {
@@ -36,7 +36,7 @@ public class Customer
 
 
 /**
-   compares clients based on thier loyalty 
+   compares clients based on their loyalty 
 */
    public static class LoyaltyComparator implements Comparator<Customer>
    {
@@ -56,7 +56,7 @@ public class Customer
 
 
 /**
-   compares clients based on thier net worth.
+   compares clients based on their politeness.
    If there is a tie, politeness is used.
 */
    public static class WorthPoliteComparator implements Comparator<Customer>
