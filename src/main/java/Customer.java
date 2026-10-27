@@ -56,7 +56,7 @@ public class Customer
 
 
 /**
-   compares clients based on their politeness.
+   compares clients based on their Politeness.
    If there is a tie, politeness is used.
 */
    public static class WorthPoliteComparator implements Comparator<Customer>
