@@ -33,7 +33,8 @@ public class Queue<T>
 		   Node newNode = new Node (val, null);
 		   if (size==0) {front=newNode;back=newNode;}
 		   
-		   else {
+		   else 
+		   {
 		   back.next = newNode; 
 		   back = newNode; 
 		   }
